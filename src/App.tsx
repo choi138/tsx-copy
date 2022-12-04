@@ -1,8 +1,15 @@
+import { GlobalStyle } from "./style/GlobalStyle";
+import { BrowserRouter as Router, Route, Routes, Navigate } from "react-router-dom";
 import React from 'react';
 
 function App() {
   return (
-    <div>Hello tsx</div>
+    <>
+      <Router>
+        <Routes>
+        </Routes>
+      </Router>
+    </>
   );
 }
 
